@@ -1,12 +1,10 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import Toolbar from '@/components/ToolbarHeader.vue'
+import AppTopbar from '@/components/AppTopbar.vue'
 </script>
 
 <template>
-  <header>
-    <Toolbar></Toolbar>
-  </header>
+  <AppTopbar />
   <main>
     <RouterView />
   </main>

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Overpass Light';
+  src:
+    local('Overpass Light'),
+    url('fonts/Overpass/Overpass-Light.woff2') format('woff2'),
+    url('fonts/Overpass/Overpass-Light.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Overpass Medium';
+  src:
+    local('Overpass Medium'),
+    url('fonts/Overpass/Overpass-Medium.woff2') format('woff2'),
+    url('fonts/Overpass/Overpass-Medium.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Overpass SemiBold';
+  src:
+    local('Overpass SemiBold'),
+    url('fonts/Overpass/Overpass-SemiBold.woff2') format('woff2'),
+    url('fonts/Overpass/Overpass-SemiBold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

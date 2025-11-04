@@ -1,12 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup lang="ts">
-import Button from 'primevue/button'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main>
-    <Button label="Chat" />
-  </main>
+  <main></main>
 </template>
 
 <style scoped></style>
