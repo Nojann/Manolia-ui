@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import { RouterView } from 'vue-router'
-  import Toolbar from '@/components/Toolbar.vue';
+import { RouterView } from 'vue-router'
+import Toolbar from '@/components/ToolbarHeader.vue'
 </script>
 
 <template>
@@ -10,9 +10,7 @@
   <main>
     <RouterView />
   </main>
-  <footer>
-    https://github.com/Nojann/Manolia-ui
-  </footer>
+  <footer>https://github.com/Nojann/Manolia-ui</footer>
 </template>
 
 <style scoped></style>
