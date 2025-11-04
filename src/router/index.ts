@@ -7,8 +7,8 @@ const router = createRouter({
       path: '/',
       alias: '/app',
       name: 'app',
-      component: () => import('@/views/Application.vue'),
-    }
+      component: () => import('@/views/Dashboard.vue'),
+    },
   ],
 })
 
