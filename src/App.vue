@@ -1,10 +1,11 @@
 <script setup lang="ts">
   import { RouterView } from 'vue-router'
+  import Toolbar from '@/components/Toolbar.vue';
 </script>
 
 <template>
   <header>
-    Manolia
+    <Toolbar></Toolbar>
   </header>
   <main>
     <RouterView />
