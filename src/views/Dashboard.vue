@@ -2,7 +2,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main></main>
+  <div class="dashboard-container"></div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.dashboard-container {
+  padding: 0 2rem;
+}
+</style>

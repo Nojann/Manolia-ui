@@ -1,14 +1,19 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import AppTopbar from '@/components/AppTopbar.vue'
+import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <template>
-  <AppTopbar />
+  <header>
+    <AppTopbar />
+  </header>
   <main>
     <RouterView />
   </main>
-  <footer>https://github.com/Nojann/Manolia-ui</footer>
+  <footer>
+    <AppFooter />
+  </footer>
 </template>
 
 <style scoped></style>
