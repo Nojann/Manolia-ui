@@ -16,4 +16,20 @@ import AppFooter from '@/components/AppFooter.vue'
   </footer>
 </template>
 
-<style scoped></style>
+<style>
+#app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #app {
+    height: 100vh;
+  }
+}
+</style>
