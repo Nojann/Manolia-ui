@@ -1,2 +1,9 @@
 @import 'reset.css';
 @import 'font.css';
+
+.p-card-title {
+  font-family: Overpass Medium;
+}
+.p-card-content {
+  font-family: Overpass Light;
+}

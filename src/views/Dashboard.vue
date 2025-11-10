@@ -1,11 +1,21 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SectionSources from '@/components/SectionSources.vue'
+import SectionChat from '@/components/SectionChat.vue'
+import SectionTools from '@/components/SectionTools.vue'
+</script>
 
 <template>
   <div class="dashboard-container">
-    <section class="section"></section>
-    <section class="section"></section>
-    <section class="section"></section>
+    <section class="section">
+      <SectionSources />
+    </section>
+    <section class="section section-main">
+      <SectionChat />
+    </section>
+    <section class="section">
+      <SectionTools />
+    </section>
   </div>
 </template>
 
@@ -26,8 +36,17 @@
 
 .section {
   background-color: #ffffff;
-  width: 100%;
   height: 100%;
   border-radius: 8px;
+}
+
+.section-main {
+  order: -1;
+}
+@media screen and (min-width: 768px) {
+  .section-main {
+    flex-grow: 2;
+    order: 0;
+  }
 }
 </style>
