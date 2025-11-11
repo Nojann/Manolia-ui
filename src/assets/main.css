@@ -1,6 +1,10 @@
 @import 'reset.css';
 @import 'font.css';
 
+:root {
+  --manolia-color: #c71b4f;
+}
+
 .p-card-title {
   font-family: Overpass Medium;
 }
