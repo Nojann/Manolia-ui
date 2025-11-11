@@ -42,6 +42,7 @@ const inputValue = ref('')
 :deep(.p-textarea) {
   border: none;
   box-shadow: none;
+  resize: none;
 }
 :deep(.p-button) {
   background-color: var(--manolia-color);
