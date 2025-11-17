@@ -4,8 +4,11 @@ import { Textarea } from 'primevue'
 import { Button } from 'primevue'
 import { ArrowRight } from 'lucide-vue-next'
 import { ref } from 'vue'
+import { apiClient } from '@/services/api'
 
 const inputValue = ref('')
+
+apiClient.post('/chat?content=Hello', '')
 </script>
 
 <template>

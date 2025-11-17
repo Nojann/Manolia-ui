@@ -1,0 +1,1 @@
+API pattern : https://dev.to/istealersn_dev/patterns-for-api-communication-in-frontend-applications-11g1
